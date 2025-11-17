@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    margin: 30px 25px;
+    justify-content: space-between;
+
+    .logo-passoia {
+        width: 15%;
+    }
+
+    .header-nav {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
