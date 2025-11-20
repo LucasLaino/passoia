@@ -1,0 +1,22 @@
+.categorias-maquiagens {
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+        margin: 40px 0;
+        font-family: 'Roboto', sans-serif;
+        color: #2D2D2D;
+    }
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        max-width: 320px;
+        max-height: 500px;
+    }
+}
