@@ -1,0 +1,63 @@
+.card-produtos-lancamento {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .imagem-produto {
+        width: 350px;
+        height: 350px;
+    }
+
+    .infos-produto {
+        padding: 20px;
+        max-height: 400px;
+        max-width: 480px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
+
+        h3 {
+            font-size: 30px;
+            color: #2D2D2D;
+            padding-bottom: 10px;
+        }
+
+        .botoes {
+            gap: 20px;
+            display: flex;
+            padding: 10px 0 10px 0;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        .descricao-produto {
+            color: #2D2D2D;
+            max-width: 450px;
+            padding: 10px 0 10px 0;
+        }
+
+        .btn-trocar-cor {
+            width: 40px;
+            height: 40px;
+            border-style: none;
+            border-radius: 50%;
+        }
+
+        .batom-azul {
+            background-color: #B1B0D8;
+        }
+
+        .batom-vermelho {
+            background-color: #E1342A;
+        }
+
+        .batom-bordo {
+            background-color: #73282D;
+        }
+
+        .batom-bege {
+            background-color: #DE755E;
+        }
+    }
+}

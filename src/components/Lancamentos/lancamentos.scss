@@ -1,0 +1,21 @@
+.lancamentos {
+font-family: 'Roboto', sans-serif;
+    h2 {
+        margin: 40px 0;
+        font-size: 40px;
+        color: #2D2D2D;
+        text-align: center;
+    }
+}
+
+.produtos-lancamento {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .produto-img {
+        width: 115px;
+        height: 115px;
+    }
+}
