@@ -1,0 +1,16 @@
+.novidades {
+    h2 {
+        margin: 50px 0;
+        font-size: 40px;
+        color: #2D2D2D;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.banner-novidades {
+    height: 100vh;
+    margin: 0 40px;
+    background: url(../../assets/images/banner-novidades.jpg) center center no-repeat;
+    background-size: contain;
+}
