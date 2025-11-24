@@ -1,12 +1,11 @@
 .card-produtos-lancamento {
-    width: 70%;
+    gap: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
 
     .imagem-produto {
-        width: 350px;
-        height: 350px;
+        width: 360px;
+        height: 360px;
     }
 
     .infos-produto {

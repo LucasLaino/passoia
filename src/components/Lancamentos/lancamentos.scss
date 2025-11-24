@@ -9,13 +9,13 @@ font-family: 'Roboto', sans-serif;
 }
 
 .produtos-lancamento {
-    width: 100%;
+    gap: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .produto-img {
-        width: 115px;
-        height: 115px;
+        width: 120px;
+        height: 120px;
     }
 }
