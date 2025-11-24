@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    padding: 50px 50px 80px 50px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+    h4 {
+        font-size: 24px;
+        color: #2D2D2D;
+        padding-bottom: 10px;
+    }
+
+    .atendimento {
+        .menu-atendimento li {
+            padding: 5px 0;
+        }
+    }
+
+    .formas-de-pagamento {
+        li {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .redes-sociais ul li {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
