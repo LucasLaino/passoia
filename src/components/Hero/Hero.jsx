@@ -1,6 +1,6 @@
-import './banner.scss';
+import './hero.scss';
 
-export default function Banner() {
+export default function Hero() {
     return (
         <div className="banner"></div>
     )
