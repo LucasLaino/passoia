@@ -1,27 +1,18 @@
 .header {
     display: flex;
-    margin: 30px 25px;
+    padding: 30px;
     align-items: center;
     justify-content: space-between;
 
     .logo-passoia {
         width: 15%;
     }
+}
 
-    .header-nav {
-        gap: 20px;
-        display: flex;
-        font-size: 20px;
-        font-family: 'Poppins', sans-serif;
-
-        li {
-            transition: 0.2s ease-in-out;
-            border-bottom: 1px solid transparent;
-
-            &:hover {
-                color: #2D2D2D;
-                border-bottom: 1px solid #2D2D2D;
-            }
+@media (min-width: 0px) and (max-width: 480px) {
+    .header{
+        .logo-passoia {
+            width: 30%;
         }
     }
 }
