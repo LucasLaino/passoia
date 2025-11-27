@@ -1,5 +1,6 @@
 footer {
     display: flex;
+    flex-wrap: wrap;
     padding: 50px 50px 80px 50px;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
@@ -32,5 +33,26 @@ footer {
     .redes-sociais ul li {
         display: flex;
         justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    footer {
+        gap: 20px;
+        padding: 50px 30px;
+        justify-content: center;
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+
+    .atendimento {
+        text-align: center;
+    }
+
+    .pagamento {
+        display: flex;
+        flex-direction: column;
     }
 }

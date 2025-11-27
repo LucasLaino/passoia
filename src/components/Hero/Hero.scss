@@ -1,5 +1,12 @@
-.banner {
-    height: 100vh;
-    background: url(../../assets/images/banner.jpg) center center no-repeat;
+.hero {
+    height: 89vh;
+    background: url(../../assets/images/imagem-hero.jpg) center center no-repeat;
     background-size: cover;
+}
+
+@media (min-width: 350px) and (max-width: 480px) {
+    .hero {
+        height: 200px;
+        background-size: cover;
+    }
 }

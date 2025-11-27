@@ -7,16 +7,32 @@
         color: #2D2D2D;
         font-family: 'Roboto', sans-serif;
     }
+
+    .categorias {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        img {
+            max-width: 320px;
+            max-height: 500px;
+        }
+    }
 }
 
-.categorias {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+@media (min-width: 350px) and (max-width: 480px) {
+    .categorias-maquiagens {
+        h2 {
+            font-size: 20px;
+        }
 
-    img {
-        max-width: 320px;
-        max-height: 500px;
+        .categorias {
+            gap: 20px;
+
+            img {
+                height: 400px;
+            }
+        }
     }
 }

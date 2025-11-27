@@ -1,21 +1,36 @@
 .lancamentos {
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
     h2 {
         margin: 40px 0;
         font-size: 40px;
         color: #2D2D2D;
         text-align: center;
     }
+
+    .produtos-lancamento {
+        gap: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .produto-img {
+            width: 120px;
+            height: 120px;
+        }
+    }
 }
 
-.produtos-lancamento {
-    gap: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (min-width: 350px) and (max-width: 480px) {
+    .lancamentos {
+        h2 {
+            font-size: 20px;
+        }
 
-    .produto-img {
-        width: 120px;
-        height: 120px;
+        .produtos-lancamento {
+            ul {
+                display: none;
+            }
+        }
     }
 }

@@ -60,3 +60,24 @@
         }
     }
 }
+
+@media (min-width: 350px) and (max-width: 480px) {
+    .card-produtos-lancamento {
+        flex-direction: column;
+
+        .imagem-produto {
+            width: 280px;
+            height: 280px;
+        }
+
+        .infos-produto {
+            width: 320px;
+            font-size: 14px;
+            text-align: center;
+
+            .botoes {
+                justify-content: center;
+            }
+        }
+    }
+}
