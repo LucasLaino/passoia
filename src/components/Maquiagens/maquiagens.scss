@@ -36,3 +36,19 @@
         }
     }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .categorias-maquiagens {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .categorias {
+        gap: 20px;
+
+        img {
+            height: 350px;
+        }
+    }
+}

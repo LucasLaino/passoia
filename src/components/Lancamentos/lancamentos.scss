@@ -34,3 +34,17 @@
         }
     }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .lancamentos {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .produtos-lancamento {
+        ul {
+            display: none;
+        }
+    }
+}

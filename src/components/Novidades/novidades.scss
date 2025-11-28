@@ -6,13 +6,14 @@
         text-align: center;
         font-family: 'Roboto', sans-serif;
     }
-}
 
-.banner-novidades {
-    height: 100vh;
-    margin: 0 40px;
-    background: url(../../assets/images/banner-novidades.jpg) center center no-repeat;
-    background-size: contain;
+    .banner-novidades {
+        height: 100vh;
+        margin: 0 40px;
+        background: url(../../assets/images/banner-novidades.jpg) center center no-repeat;
+        background-size: contain;
+    }
+
 }
 
 @media (min-width: 350px) and (max-width: 480px) {
@@ -26,6 +27,19 @@
             background-size: cover;
             margin: 0 20px;
 
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .novidades {
+        h2 {
+            font-size: 30px;
+        }
+
+        .banner-novidades {
+            height: 300px;
+            margin: 0 20px;
         }
     }
 }

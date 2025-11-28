@@ -81,3 +81,17 @@
         }
     }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .card-produtos-lancamento {
+        flex-direction: column;
+
+        .infos-produto {
+            text-align: center;
+
+            .botoes {
+                justify-content: center;
+            }
+        }
+    }
+}
