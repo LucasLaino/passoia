@@ -1,5 +1,5 @@
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+import Header from "./components/Header/Header"
+import Hero from './components/Hero/Hero'
 import Maquiagens from './components/Maquiagens/Maquiagens'
 import Lancamentos from './components/Lancamentos/Lancamentos'
 import Novidades from './components/Novidades/Novidades'
