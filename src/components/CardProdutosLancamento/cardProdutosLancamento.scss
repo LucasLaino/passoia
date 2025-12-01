@@ -95,3 +95,17 @@
         }
     }
 }
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .card-produtos-lancamento {
+        flex-direction: column;
+
+        .infos-produto {
+            text-align: center;
+
+            .botoes {
+                justify-content: center;
+            }
+        }
+    }
+}
