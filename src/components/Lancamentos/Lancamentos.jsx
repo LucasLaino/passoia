@@ -1,4 +1,4 @@
-import './lancamentos.scss';
+import './lancamentos.scss'
 import kitLipTint from '../../assets/images/kit-lip-tint.svg';
 import kitBatomImg from '../../assets/images/kit-batom.svg';
 import kitBatomLiquidoImg from '../../assets/images/kit-batom-liquido.svg';

@@ -1,4 +1,4 @@
-import './novidades.scss';
+import './novidades.scss'
 
 export default function Novidades() {
     return (
