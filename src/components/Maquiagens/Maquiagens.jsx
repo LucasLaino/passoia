@@ -1,4 +1,4 @@
-import './Maquiagens.scss';
+import './maquiagens.scss';
 import cardLabiosImg from '../../assets/images/card-labios.jpg'
 import cardOlhosImg from '../../assets/images/card-olhos.jpg'
 import cardRostoImg from '../../assets/images/card-rosto.jpg'
