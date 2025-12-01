@@ -1,16 +1,23 @@
 .header {
+    margin: 30px;
     display: flex;
-    padding: 30px;
+    max-height: 75px;
     align-items: center;
     justify-content: space-between;
 
     .logo-passoia {
         width: 15%;
     }
+
+    .header-nav {
+        li a {
+            color: #000;
+        }
+    }
 }
 
 @media (min-width: 350px) and (max-width: 480px) {
-    .header{
+    .header {
         .logo-passoia {
             width: 30%;
         }

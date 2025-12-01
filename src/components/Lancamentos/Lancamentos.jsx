@@ -7,7 +7,7 @@ import CardProdutosLancamento from '../CardProdutosLancamento/CardProdutosLancam
 export default function Lancamentos() {
     return (
         <>
-            <article className='lancamentos'>
+            <article className='lancamentos' id='lancamentos'>
                 <h2>APROVEITE OS LANÇAMENTOS</h2>
 
                 <section className="produtos-lancamento">

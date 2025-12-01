@@ -2,7 +2,7 @@ import './novidades.scss'
 
 export default function Novidades() {
     return (
-        <section className='novidades'>
+        <section className='novidades' id='novidades'>
             <h2>NOVIDADES PRA VOCÊ</h2>
 
             <div className="banner-novidades"></div>

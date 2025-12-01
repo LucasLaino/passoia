@@ -7,7 +7,7 @@ import cardTendenciaImg from '../../assets/images/card-tendencia.jpg'
 export default function Maquiagens() {
     return (
         <>
-            <article className='categorias-maquiagens'>
+            <article className='categorias-maquiagens' id='looks'>
                 <h2>LOOKS E DICAS DE MAQUIAGEM</h2>
 
                 <section className='categorias'>

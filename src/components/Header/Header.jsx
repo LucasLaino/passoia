@@ -17,9 +17,9 @@ export default function Header() {
                 </label>
 
                 <ul className='header-nav'>
-                    <li>LOOKS</li>
-                    <li>LANÇAMENTOS</li>
-                    <li>NOVIDADES</li>
+                    <li><a href="#looks">LOOKS</a></li>
+                    <li><a href="#lancamentos">LANÇAMENTOS</a></li>
+                    <li><a href="#novidades">NOVIDADES</a></li>
                 </ul>
             </nav>
         </header>
