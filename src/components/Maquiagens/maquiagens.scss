@@ -16,7 +16,8 @@
 
         img {
             max-width: 320px;
-            max-height: 500px;
+            max-height: 480px;
+            border-radius: 5px;
         }
     }
 }
@@ -63,6 +64,17 @@
 
         img {
             height: 400px;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .categorias img {
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
         }
     }
 }

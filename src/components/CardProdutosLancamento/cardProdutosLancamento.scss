@@ -36,10 +36,9 @@
             padding: 10px 0 10px 0;
         }
 
-        .btn-trocar-cor {
+        .btn {
             width: 40px;
             height: 40px;
-            border-style: none;
             border-radius: 50%;
         }
 
@@ -106,6 +105,18 @@
             .botoes {
                 justify-content: center;
             }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .btn {
+        border: 1px solid transparent;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            border: 1px solid #000;
         }
     }
 }

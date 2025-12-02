@@ -30,9 +30,13 @@ footer {
         }
     }
 
-    .redes-sociais ul li {
+    .redes-sociais ul {
         display: flex;
         justify-content: space-evenly;
+
+        a {
+            color: #000;
+        }
     }
 }
 
@@ -71,5 +75,25 @@ footer {
 @media (min-width: 769px) and (max-width: 1279px) {
     footer {
         justify-content: space-around;
+    }
+}
+
+@media (min-width:1280px) {
+    .menu-atendimento li {
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            color: #F40179;
+        }
+    }
+
+    .redes-sociais ul li a{
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            color: #F40179;
+            cursor: pointer;
+        }
     }
 }

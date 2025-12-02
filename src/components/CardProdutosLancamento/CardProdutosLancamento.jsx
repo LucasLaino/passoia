@@ -11,7 +11,7 @@ export default function CardProdutosLancamento() {
 
     return (
         <section className='card-produtos-lancamento'>
-            <img src={cor} alt="Imagem testador de batom" className='imagem-produto'/>
+            <img src={cor} alt="Imagem testador de batom" className='imagem-produto' />
 
             <article className='infos-produto'>
                 <img src={avalicaoEstrelas} alt="Avaliação em estrelas" />
@@ -19,10 +19,10 @@ export default function CardProdutosLancamento() {
                 <p>Cores Disponíveis</p>
 
                 <span className='botoes'>
-                    <button className='btn-trocar-cor batom-azul' onClick={() => setCor(batomAzul)}></button>
-                    <button className='btn-trocar-cor batom-vermelho' onClick={() => setCor(batomVermelho)}></button>
-                    <button className='btn-trocar-cor batom-bordo' onClick={() => setCor(batomBordo)}></button>
-                    <button className='btn-trocar-cor batom-bege' onClick={() => setCor(batomBege)}></button>
+                    <button className='btn batom-azul' onClick={() => setCor(batomAzul)}></button>
+                    <button className='btn batom-vermelho' onClick={() => setCor(batomVermelho)}></button>
+                    <button className='btn batom-bordo' onClick={() => setCor(batomBordo)}></button>
+                    <button className='btn batom-bege' onClick={() => setCor(batomBege)}></button>
                 </span>
 
                 <h4>Descrição</h4>

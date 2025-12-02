@@ -21,10 +21,10 @@ export default function Footer() {
 
             <section className="pagamento">
                 <h4>FORMAS DE PAGAMENTO</h4>
-                
+
                 <ul className='formas-de-pagamento'>
                     <li>
-                        <img src={bandeiraMastercard} alt='Bandeira Mastercard'/>
+                        <img src={bandeiraMastercard} alt='Bandeira Mastercard' />
                         <img src={bandeiraVisa} alt="Bandeira Visa" />
                     </li>
                     <li>
@@ -38,12 +38,10 @@ export default function Footer() {
                 <h4>SIGA-NOS NAS REDES SOCIAIS</h4>
 
                 <ul>
-                    <li>
-                        <FaFacebook size={24} />
-                        <FaInstagram size={24} />
-                        <FaYoutube size={24} />
-                        <FaXTwitter size={24} />
-                    </li>
+                    <li><a href="https://www.facebook.com/"><FaFacebook size={24} /></a></li>
+                    <li><a href="https://www.instagram.com/"><FaInstagram size={24} /></a></li>
+                    <li><a href="https://www.youtube.com/?hl=pt&gl=BR"><FaYoutube size={24} /></a></li>
+                    <li><a href="https://x.com/?lang=pt"><FaXTwitter size={24} /></a></li>
                 </ul>
             </section>
         </footer>
