@@ -1,16 +1,51 @@
-# React + Vite
+# Passoia
+<p align="center">
+    <img src="./src/assets/images/passoia.gif" alt="Demonstração do Projeto" width="700"/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Informações do Curso 
+- <b>Instituição:</b> Vai na Web
 
-Currently, two official plugins are available:
+- <b>Curso:</b> Grupo BiT - L'oreal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- <b>Professores:</b> Kleber Matos, Carol Oliveira e Stéfany Farias
 
-## React Compiler
+- <b>Autor(a):</b> Lucas Laino de Andrade
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Sobre o Projeto
+> Status: Concluído ✅
 
-## Expanding the ESLint configuration
+O projeto é uma landing page de uma empresa de cosméticos fictícia chamada Passoia. Esse projeto é a resolução do segundo de desafio proposto pelo Grupo BiT da instituição Vai na Web, como o intuito de solidififcar o React de forma terórica e prática.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Tecnologias Utilizadas
+Este projeto foi construído utilizando as seguintes tecnologias:
+
+- React (para a componentização do site)
+
+- React Icons (Para ícones utilzados no rodapé do site)
+
+- CSS3 (para a estilização, layout com Flexbox e responsividade)
+
+- SCSS (como pré-processador de CSS)
+
+## Como Executar o Projeto
+Como o projeto é estático, não há necessidade de instalação de dependências ou servidores complexos.
+
+Acesse pelo link [clicando aqui](https://passoia-nu.vercel.app/)
+
+ou
+
+1.Clone este repositório usando o comando: ```git clone https://github.com/LucasLaino/passoia```
+
+2.Navegue até a pasta do projeto.
+
+3.Abra a pasta do projeto no editor de código (caso use Visual Studio Code, use a extensão Live Server).
+
+4.Clique com o botão direito no arquivo index.html e selecione a opção "Open with Live Server" (ou utilize o atalho alt + L + O).
+
+5.O site será aberto automaticamente no seu navegador no endereço http://127.0.0.1:5500.
+
+## Contatos
+- LinkedIn: [Lucas Laino](https://www.linkedin.com/in/lucaslaino) 
+- E-mail: [lucaslaino00@gmail.com](mailto:lucaslaino00@gmail.com)
