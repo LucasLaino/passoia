@@ -78,7 +78,7 @@ footer {
     }
 }
 
-@media (min-width:1280px) {
+@media (min-width:1024px) {
     .menu-atendimento li {
         transition: 0.3s ease-in-out;
 
@@ -92,7 +92,7 @@ footer {
         transition: 0.3s ease-in-out;
 
         &:hover {
-            color: #F40179;
+            color: $rosa;
             cursor: pointer;
         }
     }
